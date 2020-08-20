@@ -106,15 +106,15 @@ hadoop:10000/canal/cancelTask/test-canal
 
 ### v1.0
 
-[x] 支持单机版Canal server
-[x] 支持Kafka数据通道
-[x] 支持创建和取消采集binlog task
-[x] task配置存储与内存中
-[x] 多schema、多table数据采集上报
-[ ] 多任务压力测试
+- [x] 支持单机版Canal server
+- [x] 支持Kafka数据通道
+- [x] 支持创建和取消采集binlog task
+- [x] task配置存储与内存中
+- [x] 多schema、多table数据采集上报
+- [ ] 多任务压力测试
 
 ### v1.1 feature
 
-[ ] 支持分布式Canal
-[ ] 多数据通道支持
-[ ] TODO
+- [ ] 支持分布式Canal
+- [ ] 多数据通道支持
+- [ ] TODO
