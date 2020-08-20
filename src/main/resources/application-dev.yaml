@@ -1,0 +1,20 @@
+spring:
+  kafka:
+    producer:
+      acks: all
+      transaction-id-prefix: canal-tx-
+      bootstrap-servers: hadoop:9092,hadoop:9093,hadoop:9094
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      batch-size: 1046567
+      buffer-memory: 3145728
+      compression-type: snappy
+      retries: 3
+canal:
+  configs[0]:
+    name: conneactor name
+    hostname: canal host
+    port: canal port
+    destination: canal destination
+    username: canal username
+    password: canal password
